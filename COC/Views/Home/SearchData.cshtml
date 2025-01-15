@@ -1,0 +1,80 @@
+﻿@model List<COC.ModelDB.QUDB.News>
+@{
+    ViewBag.Title = "SearchData";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<section class="pop-cour">
+    <div class="container com-sp pad-bot-70">
+        <div class="row">
+            <div class="con-title">
+                <h2>Latest <span>News</span></h2>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div>
+                    <!--POPULAR COURSES-->
+
+                    @for (int i = 0; i <Model.Count ; i += 2)
+                    {
+
+                        <div class="home-top-cour">
+                            <!--POPULAR COURSES IMAGE-->
+                            <div class="col-md-3"> <img src="@Model[i].ImageUrl" alt=""> </div>
+                            <!--POPULAR COURSES: CONTENT-->
+                            <div class="col-md-9 home-top-cour-desc">
+                                <a href="/Home/NewsDetails?newsid=@Model[i].Id">
+                                    <h3>@Model[i].Title</h3>
+                                </a>
+
+
+
+                                <p style="width: 250px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; ">@Model[i].Content</p>
+                                <div class="hom-list-share">
+                                    <ul>
+                                        <li><a href="/Home/NewsDetails?newsid=@Model[i].Id"><i class="fa fa-bar-chart" aria-hidden="true"></i> More Details</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    <!--POPULAR COURSES-->
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <!--POPULAR COURSES-->
+
+                    @for (int i = 1; i < Model.Count; i += 2)
+                    {
+
+                        <div class="home-top-cour">
+                            <!--POPULAR COURSES IMAGE-->
+                            <div class="col-md-3"> <img src="@Model[i].ImageUrl" alt=""> </div>
+                            <!--POPULAR COURSES: CONTENT-->
+                            <div class="col-md-9 home-top-cour-desc">
+                                <a href="/Home/NewsDetails?newsid=@Model[i].Id">
+                                    <h3>@Model[i].Title</h3>
+                                </a>
+
+                                <p style="width: 250px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; ">@Model[i].Content</p>
+                                <div class="hom-list-share">
+                                    <ul>
+                                        <li><a href="/Home/NewsDetails?newsid=@Model[i].Id"><i class="fa fa-bar-chart" aria-hidden="true"></i>  More Details </a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

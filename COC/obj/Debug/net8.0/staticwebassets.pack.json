@@ -1,0 +1,1389 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\EventImage\\1.jpeg",
+      "PackagePath": "staticwebassets\\EventImage\\1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\EventImage\\1.png",
+      "PackagePath": "staticwebassets\\EventImage\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\EventImage\\2.png",
+      "PackagePath": "staticwebassets\\EventImage\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\EventImage\\3.jpeg",
+      "PackagePath": "staticwebassets\\EventImage\\3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\EventImage\\4.jpeg",
+      "PackagePath": "staticwebassets\\EventImage\\4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\EventImage\\5.jpg",
+      "PackagePath": "staticwebassets\\EventImage\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\EventImage\\6.jpg",
+      "PackagePath": "staticwebassets\\EventImage\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\EventImage\\7.jpg",
+      "PackagePath": "staticwebassets\\EventImage\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\EventImage\\8.jpg",
+      "PackagePath": "staticwebassets\\EventImage\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\EventImage\\Dyef4BiXQAAU4PU.jpg",
+      "PackagePath": "staticwebassets\\EventImage\\Dyef4BiXQAAU4PU.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\EventImage\\WhatsApp Image 2021-07-02 at 4.56.06 PM (1).jpeg",
+      "PackagePath": "staticwebassets\\EventImage\\WhatsApp Image 2021-07-02 at 4.56.06 PM (1).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\EventImage\\WhatsApp Image 2021-07-02 at 4.56.06 PM.jpeg",
+      "PackagePath": "staticwebassets\\EventImage\\WhatsApp Image 2021-07-02 at 4.56.06 PM.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\ImageUploadDis\\1.jpg",
+      "PackagePath": "staticwebassets\\ImageUploadDis\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\ImageUploadDis\\2.jpg",
+      "PackagePath": "staticwebassets\\ImageUploadDis\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\ImageUploadDis\\4.jpg",
+      "PackagePath": "staticwebassets\\ImageUploadDis\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\ImageUploadDis\\Dyef3_vWoAEODtX.jpg",
+      "PackagePath": "staticwebassets\\ImageUploadDis\\Dyef3_vWoAEODtX.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\ImageUploadDis\\images.png",
+      "PackagePath": "staticwebassets\\ImageUploadDis\\images.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\ImagesUpload\\1.jpg",
+      "PackagePath": "staticwebassets\\ImagesUpload\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\ImagesUpload\\1.png",
+      "PackagePath": "staticwebassets\\ImagesUpload\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\ImagesUpload\\10.jpg",
+      "PackagePath": "staticwebassets\\ImagesUpload\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\ImagesUpload\\11.jpg",
+      "PackagePath": "staticwebassets\\ImagesUpload\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\ImagesUpload\\2.jpg",
+      "PackagePath": "staticwebassets\\ImagesUpload\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\ImagesUpload\\3.jpeg",
+      "PackagePath": "staticwebassets\\ImagesUpload\\3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\ImagesUpload\\3.jpg",
+      "PackagePath": "staticwebassets\\ImagesUpload\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\ImagesUpload\\4.jpg",
+      "PackagePath": "staticwebassets\\ImagesUpload\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\ImagesUpload\\5.jpg",
+      "PackagePath": "staticwebassets\\ImagesUpload\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\ImagesUpload\\6.jpg",
+      "PackagePath": "staticwebassets\\ImagesUpload\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\ImagesUpload\\7.jpg",
+      "PackagePath": "staticwebassets\\ImagesUpload\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\ImagesUpload\\8.jpg",
+      "PackagePath": "staticwebassets\\ImagesUpload\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\ImagesUpload\\9.jpg",
+      "PackagePath": "staticwebassets\\ImagesUpload\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\ImagesUpload\\Dyef3_vWoAEODtX.jpg",
+      "PackagePath": "staticwebassets\\ImagesUpload\\Dyef3_vWoAEODtX.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\Scripts\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\Scripts\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\Scripts\\jquery-3.6.0.intellisense.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.6.0.intellisense.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\Scripts\\jquery-3.6.0.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.6.0.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\Scripts\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\Scripts\\jquery-3.6.0.min.map",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.6.0.min.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\Scripts\\jquery-3.6.0.slim.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.6.0.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\Scripts\\jquery-3.6.0.slim.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.6.0.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\Scripts\\jquery-3.6.0.slim.min.map",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.6.0.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\Scripts\\jquery-ui-1.12.1.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-ui-1.12.1.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\Scripts\\jquery-ui-1.12.1.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-ui-1.12.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\Scripts\\jquery.datetimepicker.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.datetimepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\Scripts\\jquery.validate-vsdoc.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate-vsdoc.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\Scripts\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\Scripts\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\Scripts\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\Scripts\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\Scripts\\modernizr-2.8.3.js",
+      "PackagePath": "staticwebassets\\Scripts\\modernizr-2.8.3.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\Site.css",
+      "PackagePath": "staticwebassets\\Site.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\bootstrap-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\bootstrap.css",
+      "PackagePath": "staticwebassets\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\css\\materialize.css",
+      "PackagePath": "staticwebassets\\css\\materialize.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\css\\style-mob.css",
+      "PackagePath": "staticwebassets\\css\\style-mob.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\fontawesome-webfont5b62.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont5b62.eot"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\fontawesome-webfont5b62.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont5b62.svg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\fontawesome-webfont5b62.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont5b62.ttf"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\fontawesome-webfont5b62.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont5b62.woff"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\fontawesome-webfont5b62.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont5b62.woff2"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\glyphicons-halflings-regular-2.html",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular-2.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\glyphicons-halflings-regular-3.html",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular-3.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\glyphicons-halflings-regular-4.html",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular-4.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\glyphicons-halflings-regular-5.html",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular-5.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\glyphicons-halflings-regular.html",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\glyphicons-halflings-regulard41d.html",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regulard41d.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\roboto\\Roboto-Bold-2.html",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Bold-2.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\roboto\\Roboto-Bold.html",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Bold.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\roboto\\Roboto-Light-2.html",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Light-2.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\roboto\\Roboto-Light.html",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Light.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\roboto\\Roboto-Medium-2.html",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Medium-2.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\roboto\\Roboto-Medium.html",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Medium.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\roboto\\Roboto-Regular-2.html",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Regular-2.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\roboto\\Roboto-Regular.html",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Regular.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\roboto\\Roboto-Thin-2.html",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Thin-2.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\fonts\\roboto\\Roboto-Thin.html",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Thin.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\3.png",
+      "PackagePath": "staticwebassets\\images\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\adv\\1.png",
+      "PackagePath": "staticwebassets\\images\\adv\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\adv\\2.png",
+      "PackagePath": "staticwebassets\\images\\adv\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\adv\\3.png",
+      "PackagePath": "staticwebassets\\images\\adv\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\adv\\4.png",
+      "PackagePath": "staticwebassets\\images\\adv\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\adv\\5.png",
+      "PackagePath": "staticwebassets\\images\\adv\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\adv\\6.png",
+      "PackagePath": "staticwebassets\\images\\adv\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\ami\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\ami\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\ami\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\ami\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\ami\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\ami\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\ami\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\ami\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\ami\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\ami\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\ami\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\ami\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\ami\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\ami\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\ami\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\ami\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\ami\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\ami\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\ami\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\ami\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\ami\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\ami\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\ban-bg.png",
+      "PackagePath": "staticwebassets\\images\\ban-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\banner.html",
+      "PackagePath": "staticwebassets\\images\\banner.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\bg-2.html",
+      "PackagePath": "staticwebassets\\images\\bg-2.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\bg.html",
+      "PackagePath": "staticwebassets\\images\\bg.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\bg\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\bg\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\bg\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\bg\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\blog\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\blog\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\blog\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\blog\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\blog\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\book.png",
+      "PackagePath": "staticwebassets\\images\\book.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\cancel.png",
+      "PackagePath": "staticwebassets\\images\\cancel.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\course.jpg",
+      "PackagePath": "staticwebassets\\images\\course.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\course\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\course\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\course\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\course\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\course\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\course\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\course\\sm-1.jpg",
+      "PackagePath": "staticwebassets\\images\\course\\sm-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\course\\sm-2.jpg",
+      "PackagePath": "staticwebassets\\images\\course\\sm-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\course\\sm-3.jpg",
+      "PackagePath": "staticwebassets\\images\\course\\sm-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\course\\sm-4.jpg",
+      "PackagePath": "staticwebassets\\images\\course\\sm-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\course\\sm-5.jpg",
+      "PackagePath": "staticwebassets\\images\\course\\sm-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\course\\sm-6.jpg",
+      "PackagePath": "staticwebassets\\images\\course\\sm-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\course\\sm-7.jpg",
+      "PackagePath": "staticwebassets\\images\\course\\sm-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\course\\sm-8.jpg",
+      "PackagePath": "staticwebassets\\images\\course\\sm-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\ev-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\ev-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\ev-bg1.jpg",
+      "PackagePath": "staticwebassets\\images\\ev-bg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\ev-bg2.jpg",
+      "PackagePath": "staticwebassets\\images\\ev-bg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\ev-in-bg1.jpg",
+      "PackagePath": "staticwebassets\\images\\ev-in-bg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\event-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\event-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\event\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\event\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\event\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\event\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\event\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\event\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\event\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\event\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\facilities\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\facilities\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\facilities\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\facilities\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\facilities\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\facilities\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\facilities\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\facilities\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\facilities\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\facilities\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\facilities\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\facilities\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\facilities\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\facilities\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\facilities\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\facilities\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\facilities\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\facilities\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\facilities\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\facilities\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\fav.ico",
+      "PackagePath": "staticwebassets\\images\\fav.ico"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\h-about.jpg",
+      "PackagePath": "staticwebassets\\images\\h-about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\h-about1.jpg",
+      "PackagePath": "staticwebassets\\images\\h-about1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\h-adm.jpg",
+      "PackagePath": "staticwebassets\\images\\h-adm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\h-adm1.jpg",
+      "PackagePath": "staticwebassets\\images\\h-adm1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\h-cam.jpg",
+      "PackagePath": "staticwebassets\\images\\h-cam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\h-cam1.jpg",
+      "PackagePath": "staticwebassets\\images\\h-cam1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\h-res.jpg",
+      "PackagePath": "staticwebassets\\images\\h-res.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\h-res1.jpg",
+      "PackagePath": "staticwebassets\\images\\h-res1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\home-ser-bg.html",
+      "PackagePath": "staticwebassets\\images\\home-ser-bg.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\home-ser-bg1.html",
+      "PackagePath": "staticwebassets\\images\\home-ser-bg1.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\awa\\1.png",
+      "PackagePath": "staticwebassets\\images\\icon\\awa\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\awa\\10.png",
+      "PackagePath": "staticwebassets\\images\\icon\\awa\\10.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\awa\\11.png",
+      "PackagePath": "staticwebassets\\images\\icon\\awa\\11.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\awa\\12.png",
+      "PackagePath": "staticwebassets\\images\\icon\\awa\\12.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\awa\\2.png",
+      "PackagePath": "staticwebassets\\images\\icon\\awa\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\awa\\3.png",
+      "PackagePath": "staticwebassets\\images\\icon\\awa\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\awa\\4.png",
+      "PackagePath": "staticwebassets\\images\\icon\\awa\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\awa\\5.png",
+      "PackagePath": "staticwebassets\\images\\icon\\awa\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\awa\\6.png",
+      "PackagePath": "staticwebassets\\images\\icon\\awa\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\awa\\7.png",
+      "PackagePath": "staticwebassets\\images\\icon\\awa\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\awa\\8.png",
+      "PackagePath": "staticwebassets\\images\\icon\\awa\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\awa\\9.png",
+      "PackagePath": "staticwebassets\\images\\icon\\awa\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\cor1.png",
+      "PackagePath": "staticwebassets\\images\\icon\\cor1.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\cor3.png",
+      "PackagePath": "staticwebassets\\images\\icon\\cor3.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\cor4.png",
+      "PackagePath": "staticwebassets\\images\\icon\\cor4.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\cor5.png",
+      "PackagePath": "staticwebassets\\images\\icon\\cor5.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\db1.png",
+      "PackagePath": "staticwebassets\\images\\icon\\db1.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\db2.png",
+      "PackagePath": "staticwebassets\\images\\icon\\db2.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\db3.png",
+      "PackagePath": "staticwebassets\\images\\icon\\db3.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\db4.png",
+      "PackagePath": "staticwebassets\\images\\icon\\db4.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\db5.png",
+      "PackagePath": "staticwebassets\\images\\icon\\db5.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\flag-1.png",
+      "PackagePath": "staticwebassets\\images\\icon\\flag-1.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\flag-2.png",
+      "PackagePath": "staticwebassets\\images\\icon\\flag-2.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\flag-3.png",
+      "PackagePath": "staticwebassets\\images\\icon\\flag-3.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\flag-4.png",
+      "PackagePath": "staticwebassets\\images\\icon\\flag-4.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\flag-5.png",
+      "PackagePath": "staticwebassets\\images\\icon\\flag-5.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\flag-6.png",
+      "PackagePath": "staticwebassets\\images\\icon\\flag-6.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\flag-7.png",
+      "PackagePath": "staticwebassets\\images\\icon\\flag-7.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\flag-8.png",
+      "PackagePath": "staticwebassets\\images\\icon\\flag-8.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\form-1.png",
+      "PackagePath": "staticwebassets\\images\\icon\\form-1.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\form-2.png",
+      "PackagePath": "staticwebassets\\images\\icon\\form-2.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\form-3.png",
+      "PackagePath": "staticwebassets\\images\\icon\\form-3.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\form-4.png",
+      "PackagePath": "staticwebassets\\images\\icon\\form-4.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\h-ic1.png",
+      "PackagePath": "staticwebassets\\images\\icon\\h-ic1.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\h-ic2.png",
+      "PackagePath": "staticwebassets\\images\\icon\\h-ic2.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\h-ic3.png",
+      "PackagePath": "staticwebassets\\images\\icon\\h-ic3.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\icon\\h-ic4.png",
+      "PackagePath": "staticwebassets\\images\\icon\\h-ic4.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\login.html",
+      "PackagePath": "staticwebassets\\images\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\logo1.png",
+      "PackagePath": "staticwebassets\\images\\logo1.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\logo11.png",
+      "PackagePath": "staticwebassets\\images\\logo11.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\map.png",
+      "PackagePath": "staticwebassets\\images\\map.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\mm-col-bg.png",
+      "PackagePath": "staticwebassets\\images\\mm-col-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\placeholder.jpg",
+      "PackagePath": "staticwebassets\\images\\placeholder.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\pro-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\pro-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\search.png",
+      "PackagePath": "staticwebassets\\images\\search.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\seminar-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\seminar-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\slider\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\slider\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\slider\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\slider\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\slider\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\sm\\1.png",
+      "PackagePath": "staticwebassets\\images\\sm\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\sm\\2.png",
+      "PackagePath": "staticwebassets\\images\\sm\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\sm\\3.png",
+      "PackagePath": "staticwebassets\\images\\sm\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\sm\\4.png",
+      "PackagePath": "staticwebassets\\images\\sm\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\sm\\5.png",
+      "PackagePath": "staticwebassets\\images\\sm\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\sm\\6.png",
+      "PackagePath": "staticwebassets\\images\\sm\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\sm\\7.png",
+      "PackagePath": "staticwebassets\\images\\sm\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\sprite.png",
+      "PackagePath": "staticwebassets\\images\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\user.jpg",
+      "PackagePath": "staticwebassets\\images\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\user\\1.png",
+      "PackagePath": "staticwebassets\\images\\user\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\user\\2.png",
+      "PackagePath": "staticwebassets\\images\\user\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\user\\3.png",
+      "PackagePath": "staticwebassets\\images\\user\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\user\\4.png",
+      "PackagePath": "staticwebassets\\images\\user\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\user\\5.png",
+      "PackagePath": "staticwebassets\\images\\user\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\user\\6.png",
+      "PackagePath": "staticwebassets\\images\\user\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\images\\weather.png",
+      "PackagePath": "staticwebassets\\images\\weather.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\img\\contact\\1.html",
+      "PackagePath": "staticwebassets\\img\\contact\\1.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\img\\contact\\2.html",
+      "PackagePath": "staticwebassets\\img\\contact\\2.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\img\\contact\\3.html",
+      "PackagePath": "staticwebassets\\img\\contact\\3.html"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\jquery.datetimepicker.css",
+      "PackagePath": "staticwebassets\\jquery.datetimepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\js\\main.min.js",
+      "PackagePath": "staticwebassets\\js\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\js\\materialize.min.js",
+      "PackagePath": "staticwebassets\\js\\materialize.min.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\accordion.css",
+      "PackagePath": "staticwebassets\\themes\\base\\accordion.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\all.css",
+      "PackagePath": "staticwebassets\\themes\\base\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\autocomplete.css",
+      "PackagePath": "staticwebassets\\themes\\base\\autocomplete.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\base.css",
+      "PackagePath": "staticwebassets\\themes\\base\\base.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\button.css",
+      "PackagePath": "staticwebassets\\themes\\base\\button.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\core.css",
+      "PackagePath": "staticwebassets\\themes\\base\\core.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\datepicker.css",
+      "PackagePath": "staticwebassets\\themes\\base\\datepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\dialog.css",
+      "PackagePath": "staticwebassets\\themes\\base\\dialog.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\draggable.css",
+      "PackagePath": "staticwebassets\\themes\\base\\draggable.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\images\\ui-bg_flat_0_aaaaaa_40x100.png",
+      "PackagePath": "staticwebassets\\themes\\base\\images\\ui-bg_flat_0_aaaaaa_40x100.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\images\\ui-bg_flat_75_ffffff_40x100.png",
+      "PackagePath": "staticwebassets\\themes\\base\\images\\ui-bg_flat_75_ffffff_40x100.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\images\\ui-bg_glass_55_fbf9ee_1x400.png",
+      "PackagePath": "staticwebassets\\themes\\base\\images\\ui-bg_glass_55_fbf9ee_1x400.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\images\\ui-bg_glass_65_ffffff_1x400.png",
+      "PackagePath": "staticwebassets\\themes\\base\\images\\ui-bg_glass_65_ffffff_1x400.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\images\\ui-bg_glass_75_dadada_1x400.png",
+      "PackagePath": "staticwebassets\\themes\\base\\images\\ui-bg_glass_75_dadada_1x400.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\images\\ui-bg_glass_75_e6e6e6_1x400.png",
+      "PackagePath": "staticwebassets\\themes\\base\\images\\ui-bg_glass_75_e6e6e6_1x400.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\images\\ui-bg_glass_95_fef1ec_1x400.png",
+      "PackagePath": "staticwebassets\\themes\\base\\images\\ui-bg_glass_95_fef1ec_1x400.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\images\\ui-bg_highlight-soft_75_cccccc_1x100.png",
+      "PackagePath": "staticwebassets\\themes\\base\\images\\ui-bg_highlight-soft_75_cccccc_1x100.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\images\\ui-icons_222222_256x240.png",
+      "PackagePath": "staticwebassets\\themes\\base\\images\\ui-icons_222222_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\images\\ui-icons_2e83ff_256x240.png",
+      "PackagePath": "staticwebassets\\themes\\base\\images\\ui-icons_2e83ff_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\themes\\base\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\images\\ui-icons_454545_256x240.png",
+      "PackagePath": "staticwebassets\\themes\\base\\images\\ui-icons_454545_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\themes\\base\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\themes\\base\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\themes\\base\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\images\\ui-icons_888888_256x240.png",
+      "PackagePath": "staticwebassets\\themes\\base\\images\\ui-icons_888888_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\themes\\base\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\images\\ui-icons_cd0a0a_256x240.png",
+      "PackagePath": "staticwebassets\\themes\\base\\images\\ui-icons_cd0a0a_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\themes\\base\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\themes\\base\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\themes\\base\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\menu.css",
+      "PackagePath": "staticwebassets\\themes\\base\\menu.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\progressbar.css",
+      "PackagePath": "staticwebassets\\themes\\base\\progressbar.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\resizable.css",
+      "PackagePath": "staticwebassets\\themes\\base\\resizable.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\selectable.css",
+      "PackagePath": "staticwebassets\\themes\\base\\selectable.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\selectmenu.css",
+      "PackagePath": "staticwebassets\\themes\\base\\selectmenu.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\slider.css",
+      "PackagePath": "staticwebassets\\themes\\base\\slider.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\sortable.css",
+      "PackagePath": "staticwebassets\\themes\\base\\sortable.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\spinner.css",
+      "PackagePath": "staticwebassets\\themes\\base\\spinner.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\tabs.css",
+      "PackagePath": "staticwebassets\\themes\\base\\tabs.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\theme.css",
+      "PackagePath": "staticwebassets\\themes\\base\\theme.css"
+    },
+    {
+      "Id": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\wwwroot\\themes\\base\\tooltip.css",
+      "PackagePath": "staticwebassets\\themes\\base\\tooltip.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.COC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.COC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.COC.props",
+      "PackagePath": "build\\COC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.COC.props",
+      "PackagePath": "buildMultiTargeting\\COC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.COC.props",
+      "PackagePath": "buildTransitive\\COC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

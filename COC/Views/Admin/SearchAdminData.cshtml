@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "SearchAdminData";
+    Layout = "~/Views/Shared/Layout_Admin.cshtml";
+}
+<div class="container-fluid sb2">
+    <div class="row">
+        <div class="sb2-2">
+            <div class="sb2-2-3">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="box-inn-sp">
+                            <div class="inn-title">
+                                <h4>User Details</h4>
+                            </div>
+                            <div class="tab-inn">
+                                <div class="table-responsive table-desi">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+
+                                                <td><b>Username</b></td>
+                                                <td><b>Email</b></td>
+                                                <td><b>Roles</b></td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+
+                                                @foreach (var user in Model)
+                                                {
+                                                <tr>
+                                                    <td>@user.Username</td>
+                                                    <td>@user.Email</td>
+                                                    <td>@user.Role</td>
+                                                </tr>
+
+                                            }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

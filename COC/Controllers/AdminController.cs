@@ -1,0 +1,114 @@
+﻿using COC.Models;
+using COC.ModelDB;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using Microsoft.AspNetCore.Mvc;
+
+using Microsoft.AspNetCore.Identity;
+using COC.ModelDB.QUDB;
+
+namespace COC.Controllers
+{
+    public class AdminController : Controller
+    {
+        private QUDBContext db = new QUDBContext();
+
+        // GET: Admin
+        private identityDbContext _identityDb = new identityDbContext();
+
+        public ActionResult GetUser()
+        {
+            // var news=db.News.ToList();
+            RegisterViewModel obj = new RegisterViewModel();
+            if (User.Identity.IsAuthenticated)
+            {
+                obj.Email = "Welcome " + User.Identity.Name;
+            }
+            else
+            {
+                obj.Email = "Welcome for guest user.";
+            }
+
+            //   obj.Email = User.Identity.GetUserName();
+
+            return PartialView(obj);
+        }
+
+        public ActionResult GetUserDash()
+        {
+            var usersWithRoles = (from user in _identityDb.AspNetUsers
+                                  select new
+                                  {
+                                      UserId = user.Id,
+                                      Username = user.UserName,
+                                      Email = user.Email,
+                                      RoleNames = (from userRole in user.Roles
+                                                   join role in _identityDb.AspNetRoles on userRole.Id
+                                                   equals role.Id
+                                                   select role.Name).ToList()
+                                  }).ToList().Select(p => new Users_in_Role_ViewModel()
+
+                                  {
+                                      UserId = p.UserId,
+                                      Username = p.Username,
+                                      Email = p.Email,
+                                      Role = string.Join(",", p.RoleNames)
+                                  });
+            return PartialView(usersWithRoles);
+        }
+
+        public ActionResult Index()
+        {
+            CountData obj = new CountData();
+            obj.EventCount = db.Events.Count();
+            obj.NewsCount = db.News.Count();
+            obj.PhotoCount = db.PhotosVideos.Count();
+            obj.UserCount = (from user in _identityDb.AspNetUsers
+                             select new
+                             {
+                                 UserId = user,
+
+                                 RoleNames = (from userRole in user.Roles
+                                              join role in _identityDb.AspNetRoles on userRole.Id
+                                              equals role.Id
+                                              select role.Name).ToList()
+                             }).Count();
+
+            return View(obj);
+        }
+
+        public ActionResult SearchAdmin()
+        {
+            Users_in_Role_ViewModel model = new Users_in_Role_ViewModel();
+
+            return PartialView(model);
+        }
+
+        [HttpPost]
+        public ActionResult SearchAdminData(Users_in_Role_ViewModel model)
+        {
+            var usersWithRoles = (from user in _identityDb.AspNetUsers
+                                  select new
+                                  {
+                                      UserId = user.Id,
+                                      Username = user.UserName,
+                                      Email = user.Email,
+                                      RoleNames = (from userRole in user.Roles
+                                                   join role in _identityDb.AspNetRoles on userRole.Id
+                                                   equals role.Id
+                                                   select role.Name).ToList()
+                                  }).Where(u => u.Email.Contains(model.Email)).ToList().Select(p => new Users_in_Role_ViewModel()
+
+                                  {
+                                      UserId = p.UserId,
+                                      Username = p.Username,
+                                      Email = p.Email,
+                                      Role = string.Join(",", p.RoleNames)
+                                  });
+
+            return View(usersWithRoles);
+        }
+    }
+}

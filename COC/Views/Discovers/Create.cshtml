@@ -1,0 +1,79 @@
+﻿@model COC.Models.DiscoverVM
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/Layout_Admin.cshtml";
+}
+
+
+<div class="sb2-2">
+    <div class="sb2-2-3">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box-inn-sp admin-form">
+                    <div class="inn-title">
+                        <h4>Add New News</h4>
+
+                    </div>
+
+                    <div class="tab-inn">
+
+                        @using ((Html.BeginForm("Create", "Discovers", FormMethod.Post, new { enctype = "multipart/form-data" })))
+                        {
+                            @Html.AntiForgeryToken()
+
+                            <div class="form-horizontal">
+                                <h4>Discover</h4>
+                                <hr />
+
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                                <form>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.Title, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.Content, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.Content, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.Content, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+
+                                    <div class="w-100 text-right">
+                                        <label class="my-4 d-block"> رفع الملف </label>
+
+                                        @Html.TextBoxFor(model => model.fileupload, new { @type = "file" })
+                                        @Html.ValidationMessageFor(model => model.fileupload, "", new { @class = "text-danger" })
+                                    </div>
+
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-offset-2 col-md-10">
+                                        <input type="submit" value="Create" class="btn btn-default" />
+                                    </div>
+                                </div>
+                            
+
+
+                        </form>
+                    </div>
+                    }
+
+                    <div class="btn admin-upload-btn">
+                        @Html.ActionLink("Back to List", "Index")
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                            </div>

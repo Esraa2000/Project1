@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51EE79F4-8E61-4B2E-8D90-AD633148D610}|COC\\COC.csproj|c:\\users\\esheh\\source\\repos\\new folder\\last\\coc\\coc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51EE79F4-8E61-4B2E-8D90-AD633148D610}|COC\\COC.csproj|solutionrelative:coc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51EE79F4-8E61-4B2E-8D90-AD633148D610}|COC\\COC.csproj|c:\\users\\esheh\\source\\repos\\new folder\\last\\coc\\coc\\views\\home\\getmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51EE79F4-8E61-4B2E-8D90-AD633148D610}|COC\\COC.csproj|solutionrelative:coc\\views\\home\\getmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51EE79F4-8E61-4B2E-8D90-AD633148D610}|COC\\COC.csproj|c:\\users\\esheh\\source\\repos\\new folder\\last\\coc\\coc\\views\\home\\getfooter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51EE79F4-8E61-4B2E-8D90-AD633148D610}|COC\\COC.csproj|solutionrelative:coc\\views\\home\\getfooter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "COC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "COC\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T15:57:15.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\Views\\Home\\GetMenu.cshtml",
+              "RelativeDocumentMoniker": "COC\\Views\\Home\\GetMenu.cshtml",
+              "ToolTip": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\Views\\Home\\GetMenu.cshtml",
+              "RelativeToolTip": "COC\\Views\\Home\\GetMenu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T15:52:37.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetFooter.cshtml",
+              "DocumentMoniker": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\Views\\Home\\GetFooter.cshtml",
+              "RelativeDocumentMoniker": "COC\\Views\\Home\\GetFooter.cshtml",
+              "ToolTip": "C:\\Users\\esheh\\source\\repos\\New folder\\Last\\COC\\COC\\Views\\Home\\GetFooter.cshtml",
+              "RelativeToolTip": "COC\\Views\\Home\\GetFooter.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T15:52:31.389Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

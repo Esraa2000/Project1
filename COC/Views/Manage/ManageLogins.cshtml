@@ -1,0 +1,41 @@
+﻿@model COC.Models.ManageLoginsViewModel
+@{
+    ViewData["Title"] = "Manage Logins";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p class="text-success">@ViewData["StatusMessage"]</p>
+
+@if (Model.CurrentLogins.Any())
+{
+    <h4>Registered Logins</h4>
+    <table class="table">
+        <tbody>
+            @foreach (var account in Model.CurrentLogins)
+            {
+                <tr>
+                    <td>@account.LoginProvider</td>
+                    <td>
+                        @if (ViewData["ShowRemoveButton"] as bool? == true)
+                        {
+                            <form asp-action="RemoveLogin" asp-controller="Manage" method="post">
+                                <input type="hidden" name="loginProvider" value="@account.LoginProvider" />
+                                <input type="hidden" name="providerKey" value="@account.ProviderKey" />
+                                <button type="submit" class="btn btn-default" title="Remove this @account.LoginProvider login from your account">Remove</button>
+                            </form>
+                        }
+                        else
+                        {
+                            @: &nbsp;
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No logins registered.</p>
+}

@@ -1,0 +1,105 @@
+﻿@model COC.Models.AllData
+@{
+    ViewBag.Title = "GetFooter";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<a href="#top" class="scrollToTop" style="display: inline;">
+    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+</a>
+<section class="wed-hom-footer">
+
+    <div class="container">
+       
+        <div class="row wed-foot-link">
+            <div class="col-md-4 foot-tc-mar-t-o">
+                @for (int i = 0; i < Model.MainMenuObj.Count; i += 3)
+                {
+
+
+                    <h4>@Model.MainMenuObj[i].Name</h4>
+                    <ul>
+                        @foreach (var item in Model.MainMenuObj[i].SubMenus)
+
+                        {
+
+                            if (item.Content != null || item.Content != string.Empty)
+                            {
+
+
+                                <li><a href="/Home/SubMenuDetails?SubMid=@item.Id">@item.Name</a></li>
+                            }
+                            else
+                            {
+                                <li><a href="@item.Id">@item.Name</a></li>
+                            }
+
+                        }
+                    </ul>
+                }
+            </div>
+            @for (int i1 = 1; i1 < Model.MainMenuObj.Count; i1 += 3)
+            {
+                <div class="col-md-4">
+
+
+
+                    <h4>@Model.MainMenuObj[i1].Name</h4>
+                    <ul>
+                        @foreach (var item in Model.MainMenuObj[i1].SubMenus)
+
+                        {
+                            if (item.Content != null || item.Content != string.Empty)
+                            {
+
+                                <li><a href="/Home/SubMenuDetails?SubMid=@item.Id">@item.Name</a></li>
+                            }
+                            else
+                            {
+                                <li><a href="@item.Url">@item.Name</a></li>
+                            }
+                        }
+                    </ul>
+
+                </div>
+            }
+            @for (int i2 = 2; i2 < Model.MainMenuObj.Count; i2 += 3)
+            {
+                <div class="col-md-4">
+
+
+
+                    <h4>@Model.MainMenuObj[i2].Name</h4>
+                    <ul>
+                        @foreach (var item in Model.MainMenuObj[i2].SubMenus)
+
+                        {
+
+                            if (item.Content != null || item.Content != string.Empty)
+                            {
+                                <li><a href="/Home/SubMenuDetails?SubMid=@item.Id">@item.Name</a></li>
+                            }
+                            else
+                            {
+                                <li><a href="@item.Url">@item.Name</a></li>
+                            }
+                        }
+
+                    </ul>
+                </div>
+            }
+            </div>
+
+    </div>
+
+</section>
+<section class="wed-rights">
+    <div class="container">
+        <div class="row">
+            <div class="copy-right">
+                <a target="_blank" href="#">Designed By Esraa Mohamed</a>
+            </div>
+        </div>
+    </div>
+</section>

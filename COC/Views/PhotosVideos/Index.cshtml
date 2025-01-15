@@ -1,0 +1,75 @@
+﻿@model IEnumerable<COC.ModelDB.QUDB.PhotosVideo>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout_Admin.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<div class="sb2-2">
+    <div class="sb2-2-3">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box-inn-sp admin-form">
+
+                    <div class="box-inn-sp">
+                        <div class="inn-title">
+                            <h4>Student Details</h4>
+                            <p>All about students like name, student id, phone, email, country, city and more</p>
+                        </div>
+                        <div class="tab-inn">
+                            <div class="table-responsive table-desi">
+                                <table class="table table-hover">
+                                    <tr>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.Title)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.ImageUrl)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.VideoUrl)
+                                        </th>
+                                        <th></th>
+                                    </tr>
+
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Title)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.ImageUrl)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.VideoUrl)
+                                            </td>
+                                            <td>
+                                            <div class="ad-st-view">
+                                                @Html.ActionLink("Edit", "Edit", new { id = item.Id })
+                                            </div>
+
+                                            @Html.ActionLink("Details", "Details", new { id = item.Id })
+                                            <div class="ad-st-view">
+                                                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                                            </div>
+                                            </td>
+                                        </tr>
+                                    }
+
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

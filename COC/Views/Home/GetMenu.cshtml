@@ -1,0 +1,215 @@
+﻿@model COC.Models.AllData
+@using Microsoft.AspNetCore.Authentication
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+@{
+    ViewBag.Title = "GetMenu";
+}
+
+<!-- MOBILE MENU -->
+<section>
+    <div class="ed-mob-menu">
+        <div class="ed-mob-menu-con">
+            <div class="ed-mm-left">
+                <div class="wed-logo">
+                    <a href="index-2.html">
+                        <img src="~/images/logo.png" alt="" />
+                    </a>
+                </div>
+            </div>
+            <div class="ed-mm-right">
+                <div class="ed-mm-menu">
+                    <a href="#!" class="ed-micon"><i class="fa fa-bars"></i></a>
+                    <div class="ed-mm-inn">
+                        <a href="#!" class="ed-mi-close"><i class="fa fa-times"></i></a>
+
+                        @foreach (var item in Model.MainMenuObj)
+                        {
+                            <h4>@item.Name</h4>
+                            <ul>
+                                @foreach (var item1 in item.SubMenus)
+                                {
+                                    if (item1.Content != null)
+                                    {
+                                        <li><a href="/Home/SubMenuDetails?SubMid=@item1.Id">@item1.Name</a></li>
+                                    }
+                                    else
+                                    {
+                                        <li><a href="@item1.Url">@item1.Name</a></li>
+                                    }
+                                }
+                            </ul>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--HEADER SECTION-->
+<section>
+    <div class="ed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="ed-com-t1-left">
+                        <ul>
+                            <li>
+                                <a href="#">@Model.SocialObj.Contact</a>
+                            </li>
+                            <li>
+                                <a href="#">@Model.SocialObj.Phone</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ed-com-t1-right">
+                        @Html.Partial("_LoginPartial")
+                    </div>
+                    <div class="ed-com-t1-social">
+                        <ul>
+                            <li>
+                                <a href="@Model.SocialObj.Email"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="@Model.SocialObj.Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- LOGO AND MENU SECTION -->
+    <div class="top-logo" data-spy="affix" data-offset-top="250">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="wed-logo">
+                        <a href="/">
+                            <img src="~/images/logo.png" alt="" />
+                        </a>
+                    </div>
+
+                    <div class="navbar1">
+                        <a href="/">Home</a>
+
+                        @foreach (var item in Model.MainMenuObj)
+                        {
+                            <div class="dropdown1">
+                                <button class="dropbtn1">
+                                    @item.Name
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+
+                                <div class="dropdown1-content">
+                                    @foreach (var item1 in item.SubMenus)
+                                    {
+                                        if (item1.Content != null)
+                                        {
+                                            <a href="/Home/SubMenuDetails?SubMid=@item1.Id">@item1.Name</a>
+                                        }
+                                        else
+                                        {
+                                            <a href="@item1.Url">@item1.Name</a>
+                                        }
+                                    }
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search Form -->
+    <form method="post" asp-action="SearchData" asp-controller="Home">
+        @Html.AntiForgeryToken()
+        <div class="search-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="search-form">
+                            <div class="sf-type">
+                                <div class="sf-input">
+                                    @Html.EditorFor(model => model.search, new { htmlAttributes = new { @class = "form-control", @placeholder = "Search" } })
+                                    @Html.ValidationMessageFor(model => model.search, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="sf-submit">
+                                <input type="submit" value="Search Course" class="btn btn-primary" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</section>
+
+<!-- Register Modal -->
+<div id="modal2" class="modal fade" role="dialog">
+    <div class="log-in-pop">
+        <div class="log-in-pop-left">
+            <h1>Hello...</h1>
+            <p>Don't have an account? Create your account. It's take less than a minute</p>
+            <h4>Login with social media</h4>
+
+            @* External Login Providers *@
+            @if (ViewBag.LoginProviders != null)
+            {
+                <div id="socialLoginList">
+                    <ul>
+                        @foreach (var p in ViewBag.LoginProviders)
+                        {
+                            <li>
+                                <button type="submit" class="fa fa-@p" id="@p" name="provider" value="@p" title="Log in using your @p account">@p</button>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            }
+        </div>
+        <div class="log-in-pop-right">
+            <a href="#" class="pop-close" data-dismiss="modal">
+                <img src="~/images/cancel.png" alt="" />
+            </a>
+            <h4>Create an Account</h4>
+            <p>Don't have an account? Create your account. It's take less than a minute</p>
+
+            @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-10">
+                        @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-10">
+                        @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" class="waves-effect waves-light log-in-btn" value="Register" />
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
