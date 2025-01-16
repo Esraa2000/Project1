@@ -126,16 +126,16 @@
 </head>
 
 <body>
-    @Url.Action("GetMenu", "Home")
-    @*@Html.Action("GetMenuItems","Home")*@
+   @{
+    Html.RenderPartialAsync("GetMenu");
+}
 
-    @RenderBody()
+@RenderBody()
 
 
 
-    <!-- COPY RIGHTS -->
-
-    @Url.Action("GetFooter", "Home")
+<!-- COPY RIGHTS -->
+@{Html.RenderPartialAsync("GetFooter");}
     <!--SECTION LOGIN, REGISTER AND FORGOT PASSWORD-->
     <section>
        
