@@ -15,12 +15,12 @@ namespace COC.Controllers
     {
         private QUDBContext db = new QUDBContext();
 
-        // GET: Admin
+        
         private identityDbContext _identityDb = new identityDbContext();
 
         public ActionResult GetUser()
         {
-            // var news=db.News.ToList();
+            
             RegisterViewModel obj = new RegisterViewModel();
             if (User.Identity.IsAuthenticated)
             {
@@ -31,7 +31,7 @@ namespace COC.Controllers
                 obj.Email = "Welcome for guest user.";
             }
 
-            //   obj.Email = User.Identity.GetUserName();
+           
 
             return PartialView(obj);
         }
@@ -81,13 +81,13 @@ namespace COC.Controllers
 
         public ActionResult SearchAdmin()
         {
-            Users_in_Role_ViewModel model = new Users_in_Role_ViewModel();
+            UsersinRoleViewModel model = new UsersinRoleViewModel();
 
             return PartialView(model);
         }
 
         [HttpPost]
-        public ActionResult SearchAdminData(Users_in_Role_ViewModel model)
+        public ActionResult SearchAdminData(UsersinRoleViewModel model)
         {
             var usersWithRoles = (from user in _identityDb.AspNetUsers
                                   select new
@@ -99,7 +99,7 @@ namespace COC.Controllers
                                                    join role in _identityDb.AspNetRoles on userRole.Id
                                                    equals role.Id
                                                    select role.Name).ToList()
-                                  }).Where(u => u.Email.Contains(model.Email)).ToList().Select(p => new Users_in_Role_ViewModel()
+                                  }).Where(u => u.Email.Contains(model.Email)).ToList().Select(p => new UsersinRoleViewModel()
 
                                   {
                                       UserId = p.UserId,
