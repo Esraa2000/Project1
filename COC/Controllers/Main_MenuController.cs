@@ -1,14 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Net;
-using System.Web;
-using COC.ModelDB;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Authorization;
-using COC.Models;
 using COC.ModelDB.QUDB;
+using Microsoft.AspNetCore.Mvc;
+using System.Net;
 
 namespace COC.Controllers
 {
