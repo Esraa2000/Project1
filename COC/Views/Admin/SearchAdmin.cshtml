@@ -1,7 +1,7 @@
 ﻿@model COC.Models.UsersinRoleViewModel
 @{
     ViewBag.Title = "SearchAdmin";
-    // Layout = "~/Views/Shared/Layout_Admin.cshtml";
+   
 }
 
 @using ((Html.BeginForm("SearchAdminData", "Admin", FormMethod.Post)))
@@ -13,48 +13,9 @@
             @Html.EditorFor(model => Model.Email, new { htmlAttributes = new { @class = "form-control", @placeholder = "Search" } })
             <input type="submit" value="Search Course" class="fa fa-search">
 
-            @*<input type="text" placeholder="Search..." class="form-control">*@
-
-            @*<a href="#"><i class="fa fa-search"></i></a>*@
+           
         </form>
     </div>
 
 }
-@*<div class="sb2-2-3">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="box-inn-sp">
-                <div class="inn-title">
-                    <h4>User Details</h4>
-                </div>
-                <div class="tab-inn">
-                    <div class="table-responsive table-desi">
-                        <table class="table table-hover">
-                            <thead>
-                                <tr>
 
-                                    <td><b>Username</b></td>
-                                    <td><b>Email</b></td>
-                                    <td><b>Roles</b></td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-
-                                    @foreach (var user in Model)
-                                    {
-                                    <tr>
-                                        <td>@user.Username</td>
-                                        <td>@user.Email</td>
-                                        <td>@user.Role</td>
-                                    </tr>
-
-                                }
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>*@
