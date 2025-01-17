@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
 namespace COC.Models
 {
-    public class Users_in_Role_ViewModel
+    public class UsersinRoleViewModel
     {
        
     public string UserId { get; set; }
