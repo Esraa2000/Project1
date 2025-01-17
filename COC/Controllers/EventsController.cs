@@ -1,15 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-//using System.Data.Entity;
-using System.Linq;
-using System.Net;
-using System.Web;
-using COC.ModelDB;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Authorization;
-using COC.Models;
 using COC.ModelDB.QUDB;
+using Microsoft.AspNetCore.Mvc;
+using System.Net;
 
 namespace COC.Controllers
 {
@@ -44,9 +35,7 @@ namespace COC.Controllers
             return View();
         }
 
-        // POST: Events/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create( Event @event)
@@ -76,9 +65,7 @@ namespace COC.Controllers
             return View(@event);
         }
 
-        // POST: Events/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(Event @event)
