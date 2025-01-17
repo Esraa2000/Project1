@@ -1,9 +1,8 @@
-﻿using System.Net;
-using COC.ModelDB;
-using COC.Models;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Authorization;
 using COC.ModelDB.QUDB;
+using COC.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using System.Net;
 
 namespace COC.Controllers
 {
@@ -49,11 +48,11 @@ namespace COC.Controllers
 
             if (FileUpload != null)
             {
-                var profileimage = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/ImagesUpload");//System.Web.HttpContext.Current.Server.MapPath("~/ImagesUpload/"), FileUpload.FileName);
+                var profileimage = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/ImagesUpload");
                 if (!Directory.Exists(profileimage))
                 {
                     Directory.CreateDirectory(profileimage);
-                }                                                                                         // FileUpload.SaveAs(profileimage);
+                }                                                                                      
                 var filePath = Path.Combine(profileimage, FileUpload.FileName);
 
                 using (var stream = new FileStream(filePath, FileMode.Create))
@@ -61,7 +60,7 @@ namespace COC.Controllers
                     FileUpload.CopyTo(stream);
                 }
 
-                //  profileimage = "/ImagesUpload/" + FileUpload.FileName;
+                
                 newsmodel.ImageUrl = "/ImagesUpload/" + FileUpload.FileName;
             }
 
