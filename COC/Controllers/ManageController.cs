@@ -1,10 +1,7 @@
-﻿using Microsoft.AspNetCore.Authorization;
+using COC.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System.Linq;
-using System.Threading.Tasks;
-using COC.Models;
 
 namespace COC.Controllers
 {
@@ -95,7 +92,7 @@ namespace COC.Controllers
             }
 
             var code = await _userManager.GenerateChangePhoneNumberTokenAsync(user, model.Number);
-            // Send SMS code here (use your SMS provider)
+           
 
             return RedirectToAction("VerifyPhoneNumber", new { PhoneNumber = model.Number });
         }
