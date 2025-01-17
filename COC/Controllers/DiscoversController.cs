@@ -1,15 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-
-using System.IO;
-using System.Linq;
-using System.Net;
-using System.Web;
-using COC.ModelDB;
 using COC.ModelDB.QUDB;
 using COC.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
 
 
 namespace COC.Controllers
@@ -18,13 +10,13 @@ namespace COC.Controllers
     {
         private QUDBContext db = new QUDBContext();
 
-        // GET: Discovers
+        
         public ActionResult Index()
         {
             return View(db.Discovers.ToList());
         }
 
-        // GET: Discovers/Details/5
+        
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -39,16 +31,13 @@ namespace COC.Controllers
             return View(discover);
         }
 
-        // GET: Discovers/Create
+       
         public ActionResult Create()
         {
             DiscoverVM Disobj= new DiscoverVM();
             return View(Disobj);
         }
 
-        // POST: Discovers/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(DiscoverVM vm, IFormFile fileupload)
@@ -82,7 +71,6 @@ namespace COC.Controllers
             return View(vm);
         }
 
-        // GET: Discovers/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -97,9 +85,6 @@ namespace COC.Controllers
             return View(discover);
         }
 
-        // POST: Discovers/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(Discover discover)
@@ -113,7 +98,6 @@ namespace COC.Controllers
             return View(discover);
         }
 
-        // GET: Discovers/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -128,7 +112,6 @@ namespace COC.Controllers
             return View(discover);
         }
 
-        // POST: Discovers/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
