@@ -55,7 +55,10 @@
             </ul>
         </div>
     </div>
-    @Url.Action("GetUserDash", "Admin")
+     @{
+      await Html.RenderPartialAsync("GetUserDash");
+  }
+
    
   
     <!--== User Details ==-->
