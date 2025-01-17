@@ -37,7 +37,9 @@
             </a>
         </div>
         <!--== SEARCH ==-->
-        @Url.Action("SearchAdmin", "Admin")
+        @{
+    await Html.RenderPartialAsync("SearchAdmin");
+}
 
         <!--== NOTIFICATION ==-->
         <div class="col-md-2 tab-hide">
@@ -74,7 +76,9 @@
     <div class="row">
 
         <div class="sb2-1">
-            @Url.Action("GetUser", "Admin")
+            @{
+    await Html.RenderPartialAsync("GetUser");
+}
 
            
             <div class="sb2-13">
