@@ -1,5 +1,4 @@
-﻿@using Microsoft.AspNetCore.Identity
-
+@using Microsoft.AspNetCore.Identity
 @if (User.Identity.IsAuthenticated)
 {
     using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
@@ -17,6 +16,7 @@
 else
 {
     <ul class="nav navbar-nav navbar-right">
+
         <li>
             <a href="#!" data-toggle="modal" data-target="#modal1">Sign In</a>
         </li>
