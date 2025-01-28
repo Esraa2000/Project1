@@ -42,7 +42,7 @@ namespace COC.Controllers
                                                    join role in _identityDb.AspNetRoles on userRole.Id
                                                    equals role.Id
                                                    select role.Name).ToList()
-                                  }).ToList().Select(p => new Users_in_Role_ViewModel()
+                                  }).ToList().Select(p => new UsersinRoleViewModel()
 
                                   {
                                       UserId = p.UserId,
