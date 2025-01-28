@@ -7,7 +7,7 @@ using System.Net;
 
 namespace COC.Controllers
 {
-    public class Sub_MenuController : Controller
+    public class SubMenuController : Controller
     {
         private QUDBContext db = new QUDBContext();
 
