@@ -1,6 +1,6 @@
 ﻿@model COC.Models.RegisterViewModel
 @{
-    ViewBag.Title = "Add_User";
+    ViewBag.Title = "addUser";
     Layout = "~/Views/Shared/Layout_Admin.cshtml";
 }
 
@@ -16,7 +16,7 @@
 
                     <div class="tab-inn">
 
-                        @using (Html.BeginForm("Add_User", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                        @using (Html.BeginForm("addUser", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
                         {
                             @Html.AntiForgeryToken()
                             <h4>Create a new account.</h4>
