@@ -1,6 +1,8 @@
 using COC.ModelDB.QUDB;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Net;
+using System.Security.Policy;
 
 
 namespace COC.Controllers
@@ -10,27 +12,28 @@ namespace COC.Controllers
         private QUDBContext db = new QUDBContext();
 
        
-        public ActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View(db.Socials.ToList());
+            return View(await db.Socials.ToListAsync());
         }
 
        
-        public ActionResult Details(int? id)
+        public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
                 return new StatusCodeResult((int)HttpStatusCode.BadRequest);
             }
-            Social social = db.Socials.Find(id);
+            Social social = await db.Socials.FindAsync(id);
             if (social == null)
             {
                 return NotFound();
             }
             return View(social);
         }
+       
 
-     
+
         public ActionResult Create()
         {
             return View();
@@ -38,25 +41,25 @@ namespace COC.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(Social social)
+        public async Task<IActionResult> Create(Social social)
         {
             if (ModelState.IsValid)
             {
                 db.Socials.Add(social);
-                db.SaveChanges();
+                await db.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
 
             return View(social);
         }
 
-        public ActionResult Edit(int? id)
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
                 return new StatusCodeResult((int)HttpStatusCode.BadRequest);
             }
-            Social social = db.Socials.Find(id);
+            Social social = await db.Socials.FindAsync(id);
             if (social == null)
             {
                 return NotFound();
@@ -66,24 +69,24 @@ namespace COC.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(Social social)
+        public async Task<IActionResult> Edit(Social social)
         {
             if (ModelState.IsValid)
             {
                 db.Socials.Update(social);
-                db.SaveChanges();
+                await db.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
             return View(social);
         }
 
-        public ActionResult Delete(int? id)
+        public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
             {
                 return new StatusCodeResult((int)HttpStatusCode.BadRequest);
             }
-            Social social = db.Socials.Find(id);
+            Social social =await db.Socials.FindAsync(id);
             if (social == null)
             {
                 return NotFound();
@@ -93,11 +96,11 @@ namespace COC.Controllers
 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            Social social = db.Socials.Find(id);
+            Social social = await db.Socials.FindAsync(id);
             db.Socials.Remove(social);
-            db.SaveChanges();
+            await db.SaveChangesAsync();
             return RedirectToAction("Index");
         }
 
