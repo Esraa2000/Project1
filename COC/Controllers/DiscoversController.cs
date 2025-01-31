@@ -2,6 +2,7 @@ using COC.ModelDB.QUDB;
 using COC.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace COC.Controllers
@@ -11,19 +12,20 @@ namespace COC.Controllers
         private QUDBContext db = new QUDBContext();
 
         
-        public ActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View(db.Discovers.ToList());
+            var discovers = await db.Discovers.ToListAsync();
+            return View(discovers);
         }
 
         
-        public ActionResult Details(int? id)
+        public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
-                return new StatusCodeResult((int)HttpStatusCode.BadRequest);
+                return BadRequest();
             }
-            Discover discover = db.Discovers.Find(id);
+            Discover discover =await db.Discovers.FindAsync(id);
             if (discover == null)
             {
                 return NotFound();
@@ -32,7 +34,7 @@ namespace COC.Controllers
         }
 
        
-        public ActionResult Create()
+        public IActionResult Create()
         {
             DiscoverVM Disobj= new DiscoverVM();
             return View(Disobj);
@@ -40,7 +42,7 @@ namespace COC.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(DiscoverVM vm, IFormFile fileupload)
+        public async Task<IActionResult> Create(DiscoverVM vm, IFormFile fileupload)
         {
             Discover discoverModele = new Discover();
             discoverModele.Id = vm.ID;
@@ -49,7 +51,7 @@ namespace COC.Controllers
             discoverModele.Content = vm.Content;
             if (fileupload != null)
             {
-                var profileimage = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/ImageUploadDis");//System.Web.HttpContext.Current.Server.MapPath("~/ImageUploadDis/"), fileupload.FileName);
+                var profileimage = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/ImageUploadDis");
                 if (!Directory.Exists(profileimage))
                 {
                     Directory.CreateDirectory(profileimage);
@@ -57,27 +59,27 @@ namespace COC.Controllers
                 var filePath = Path.Combine(profileimage, fileupload.FileName);
                 using (var stream = new FileStream(filePath, FileMode.Create))
                 {
-                    fileupload.CopyTo(stream);
+                   await fileupload.CopyToAsync(stream);
                 }
                 var profileImage = "/ImageUploadDis/" + fileupload.FileName;
                 discoverModele.ImageUrl = profileImage;
             }
             
                 db.Discovers.Add(discoverModele);
-                db.SaveChanges();
+                await db.SaveChangesAsync();
                 return RedirectToAction("Index");
             
 
             return View(vm);
         }
 
-        public ActionResult Edit(int? id)
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
                 return new StatusCodeResult((int)HttpStatusCode.BadRequest);
             }
-            Discover discover = db.Discovers.Find(id);
+            Discover discover =await db.Discovers.FindAsync(id);
             if (discover == null)
             {
                 return NotFound();
@@ -87,24 +89,24 @@ namespace COC.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(Discover discover)
+        public async Task<IActionResult> Edit(Discover discover)
         {
             if (ModelState.IsValid)
             {
                 db.Discovers.Update(discover);
-                db.SaveChanges();
+                await db.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
             return View(discover);
         }
 
-        public ActionResult Delete(int? id)
+        public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
             {
                 return new StatusCodeResult((int)HttpStatusCode.BadRequest);
             }
-            Discover discover = db.Discovers.Find(id);
+            Discover discover = await db.Discovers.FindAsync(id);
             if (discover == null)
             {
                 return NotFound();
@@ -114,11 +116,11 @@ namespace COC.Controllers
 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            Discover discover = db.Discovers.Find(id);
+            Discover discover = await db.Discovers.FindAsync(id);
             db.Discovers.Remove(discover);
-            db.SaveChanges();
+            await db.SaveChangesAsync();
             return RedirectToAction("Index");
         }
 
