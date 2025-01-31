@@ -1,6 +1,7 @@
 using COC.ModelDB.QUDB;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
+using Microsoft.EntityFrameworkCore;
 
 namespace COC.Controllers
 {
@@ -8,20 +9,20 @@ namespace COC.Controllers
     {
         private QUDBContext db = new QUDBContext();
 
-        // GET: Events
-        public ActionResult Index()
+       
+        public async Task<IActionResult> Index()
         {
-            return View(db.Events.ToList());
+            return View(await db.Events.FindAsync());
         }
 
-        // GET: Events/Details/5
-        public ActionResult Details(int? id)
+      
+        public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
                 return new StatusCodeResult((int)HttpStatusCode.BadRequest);
             }
-            Event @event = db.Events.Find(id);
+            Event @event = await db.Events.FindAsync(id);
             if (@event == null)
             {
                 return NotFound();
@@ -29,8 +30,8 @@ namespace COC.Controllers
             return View(@event);
         }
 
-        // GET: Events/Create
-        public ActionResult Create()
+     
+        public IActionResult Create()
         {
             return View();
         }
@@ -38,26 +39,25 @@ namespace COC.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create( Event @event)
+        public async Task<IActionResult> Create( Event @event)
         {
             if (ModelState.IsValid)
             {
                 db.Events.Add(@event);
-                db.SaveChanges();
+                await db.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
 
             return View(@event);
         }
-
-        // GET: Events/Edit/5
-        public ActionResult Edit(int? id)
+         
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
                 return new StatusCodeResult((int)HttpStatusCode.BadRequest);
             }
-                Event @event = db.Events.Find(id);
+                Event @event = await db.Events.FindAsync(id);
             if (@event == null)
             {
                 return NotFound();
@@ -68,25 +68,25 @@ namespace COC.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(Event @event)
+        public async Task<IActionResult> Edit(Event @event)
         {
             if (ModelState.IsValid)
             {
                 db.Events.Update(@event);
-                db.SaveChanges();
+                await db.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
             return View(@event);
         }
 
-        // GET: Events/Delete/5
-        public ActionResult Delete(int? id)
+      
+        public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
             {
                 return new StatusCodeResult((int)HttpStatusCode.BadRequest);
             }
-            Event @event = db.Events.Find(id);
+            Event @event = await db.Events.FindAsync(id);
             if (@event == null)
             {
                 return NotFound();
@@ -94,14 +94,13 @@ namespace COC.Controllers
             return View(@event);
         }
 
-        // POST: Events/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            Event @event = db.Events.Find(id);
+            Event @event = await db.Events.FindAsync(id);
             db.Events.Remove(@event);
-            db.SaveChanges();
+            await db.SaveChangesAsync();
             return RedirectToAction("Index");
         }
 
