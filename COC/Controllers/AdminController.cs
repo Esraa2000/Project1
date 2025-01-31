@@ -76,7 +76,7 @@ namespace COC.Controllers
             return View(obj);
         }
 
-        public ActionResult SearchAdmin()
+        public IActionResult SearchAdmin()
         {
             UsersinRoleViewModel model = new UsersinRoleViewModel();
 
