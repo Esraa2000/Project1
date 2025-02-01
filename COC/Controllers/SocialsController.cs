@@ -34,7 +34,7 @@ namespace COC.Controllers
        
 
 
-        public ActionResult Create()
+        public IActionResult Create()
         {
             return View();
         }
