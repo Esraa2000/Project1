@@ -1,6 +1,7 @@
 using COC.ModelDB.QUDB;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
+using Microsoft.EntityFrameworkCore;
 
 namespace COC.Controllers
 {
@@ -8,18 +9,18 @@ namespace COC.Controllers
     {
         private QUDBContext db = new QUDBContext();
 
-        public ActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View(db.MainMenus.ToList());
+            return View(await db.MainMenus.ToListAsync());
         }
 
-        public ActionResult Details(int? id)
+        public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
                 return new StatusCodeResult((int)HttpStatusCode.BadRequest);
             }
-            MainMenu main_Menu = db.MainMenus.Find(id);
+            MainMenu main_Menu = await db.MainMenus.FindAsync(id);
             if (main_Menu == null)
             {
                 return NotFound();
@@ -27,32 +28,32 @@ namespace COC.Controllers
             return View(main_Menu);
         }
 
-        public ActionResult Create()
+        public IActionResult Create()
         {
             return View();
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(MainMenu mainMenu)
+        public async Task<IActionResult> Create(MainMenu mainMenu)
         {
             if (ModelState.IsValid)
             {
-                db.MainMenus.Add(mainMenu);
-                db.SaveChanges();
+                await db.MainMenus.AddAsync(mainMenu);
+                await db.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
 
             return View(mainMenu);
         }
 
-        public ActionResult Edit(int? id)
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
                 return new StatusCodeResult((int)HttpStatusCode.BadRequest);
             }
-            MainMenu main_Menu = db.MainMenus.Find(id);
+            MainMenu main_Menu = await db.MainMenus.FindAsync(id);
             if (main_Menu == null)
             {
                 return NotFound();
@@ -62,24 +63,24 @@ namespace COC.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(MainMenu mainMenu)
+        public async Task<IActionResult> Edit(MainMenu mainMenu)
         {
             if (ModelState.IsValid)
             {
                 db.MainMenus.Update(mainMenu);
-                db.SaveChanges();
+                await db.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
             return View(mainMenu);
         }
 
-        public ActionResult Delete(int? id)
+        public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
             {
                 return new StatusCodeResult((int)HttpStatusCode.BadRequest);
             }
-            MainMenu main_Menu = db.MainMenus.Find(id);
+            MainMenu main_Menu =await db.MainMenus.FindAsync(id);
             if (main_Menu == null)
             {
                 return NotFound();
@@ -89,11 +90,11 @@ namespace COC.Controllers
 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            MainMenu main_Menu = db.MainMenus.Find(id);
+            MainMenu main_Menu = await db.MainMenus.FindAsync(id);
             db.MainMenus.Remove(main_Menu);
-            db.SaveChanges();
+            await db.SaveChangesAsync();
             return RedirectToAction("Index");
         }
 
