@@ -2,6 +2,7 @@ using COC.ModelDB.QUDB;
 using COC.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
+using Microsoft.EntityFrameworkCore;
 
 namespace COC.Controllers
 {
@@ -10,18 +11,18 @@ namespace COC.Controllers
         private QUDBContext db = new QUDBContext();
 
         
-        public ActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View(db.PhotosVideos.ToList());
+            return View(await db.PhotosVideos.ToListAsync());
         }
 
-        public ActionResult Details(int? id)
+        public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
                 return new StatusCodeResult((int)HttpStatusCode.BadRequest);
             }
-            PhotosVideo photosVideo = db.PhotosVideos.Find(id);
+            PhotosVideo photosVideo = await db.PhotosVideos.FindAsync(id);
             if (photosVideo == null)
             {
                 return NotFound();
@@ -29,7 +30,7 @@ namespace COC.Controllers
             return View(photosVideo);
         }
 
-        public ActionResult Create()
+        public IActionResult Create()
         {
             PhotosVideoVM obj = new PhotosVideoVM();
             return View(obj);
@@ -38,11 +39,10 @@ namespace COC.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
 
-        public ActionResult Create(PhotosVideoVM VM, IFormFile fileupload)
+        public async Task<IActionResult> Create(PhotosVideoVM VM, IFormFile fileupload)
         {
             PhotosVideo photomodel = new PhotosVideo();
             photomodel.Title = VM.Title;
-           
             photomodel.Id = VM.ID;
             photomodel.VideoUrl = VM.VideoURL;
             if (fileupload != null)
@@ -57,7 +57,7 @@ namespace COC.Controllers
 
                 using (var fileStream = new FileStream(filePath, FileMode.Create))
                 {
-                    fileupload.CopyTo(fileStream);
+                    await fileupload.CopyToAsync(fileStream);
                 }
                 photomodel.ImageUrl = "/EventImage/" + uniqueFileName;
 
@@ -66,7 +66,7 @@ namespace COC.Controllers
 
 
             db.PhotosVideos.Add(photomodel);
-            db.SaveChanges();
+            await db.SaveChangesAsync();
             return RedirectToAction("Index");
 
 
@@ -75,13 +75,13 @@ namespace COC.Controllers
         }
 
         
-        public ActionResult Edit(int? id)
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
                 return new StatusCodeResult((int)HttpStatusCode.BadRequest);
             }
-            PhotosVideo photosVideo = db.PhotosVideos.Find(id);
+            PhotosVideo photosVideo = await db.PhotosVideos.FindAsync(id);
             if (photosVideo == null)
             {
                 return NotFound();
@@ -91,25 +91,25 @@ namespace COC.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit( PhotosVideo photosVideo)
+        public async Task<IActionResult> Edit( PhotosVideo photosVideo)
         {
             if (ModelState.IsValid)
             {
                 db.PhotosVideos.Update(photosVideo);
-                db.SaveChanges();
+                await db.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
             return View(photosVideo);
         }
 
        
-        public ActionResult Delete(int? id)
+        public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
             {
                 return new StatusCodeResult((int)HttpStatusCode.BadRequest);
             }
-            PhotosVideo photosVideo = db.PhotosVideos.Find(id);
+            PhotosVideo photosVideo = await db.PhotosVideos.FindAsync(id);
             if (photosVideo == null)
             {
                 return NotFound();
@@ -120,11 +120,11 @@ namespace COC.Controllers
      
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            PhotosVideo photosVideo = db.PhotosVideos.Find(id);
+            PhotosVideo photosVideo = await db.PhotosVideos.FindAsync(id);
             db.PhotosVideos.Remove(photosVideo);
-            db.SaveChanges();
+            await db.SaveChangesAsync();
             return RedirectToAction("Index");
         }
 
