@@ -3,6 +3,7 @@ using COC.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
+using Microsoft.EntityFrameworkCore;
 
 namespace COC.Controllers
 {
@@ -11,18 +12,18 @@ namespace COC.Controllers
     {
         private QUDBContext db = new QUDBContext();
 
-        public ActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View(db.News.ToList());
+            return View(await db.News.ToListAsync());
         }
 
-        public ActionResult Details(int? id)
+        public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
                 return new StatusCodeResult((int)HttpStatusCode.BadRequest);
             }
-            News news = db.News.Find(id);
+            News news = await db.News.FindAsync(id);
             if (news == null)
             {
                 return NotFound();
@@ -30,7 +31,7 @@ namespace COC.Controllers
             return View(news);
         }
 
-        public ActionResult Create()
+        public IActionResult Create()
         {
             NewsVM VM = new NewsVM();
             return View(VM);
@@ -38,7 +39,7 @@ namespace COC.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(NewsVM vm, IFormFile FileUpload)
+        public async Task<IActionResult> Create(NewsVM vm, IFormFile FileUpload)
         {
             News newsmodel = new News();
             newsmodel.Title = vm.Title;
@@ -57,7 +58,7 @@ namespace COC.Controllers
 
                 using (var stream = new FileStream(filePath, FileMode.Create))
                 {
-                    FileUpload.CopyTo(stream);
+                    await FileUpload.CopyToAsync(stream);
                 }
 
                 
@@ -65,7 +66,7 @@ namespace COC.Controllers
             }
 
             db.News.Add(newsmodel);
-            db.SaveChanges();
+            await db.SaveChangesAsync();
             return RedirectToAction("Index");
 
            
@@ -74,13 +75,13 @@ namespace COC.Controllers
         }
 
         
-        public ActionResult Edit(int? id)
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
                 return new StatusCodeResult((int)HttpStatusCode.BadRequest);
             }
-            News news = db.News.Find(id);
+            News news = await db.News.FindAsync(id);
             if (news == null)
             {
                 return NotFound();
@@ -90,24 +91,24 @@ namespace COC.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit( News news)
+        public async Task<IActionResult> Edit( News news)
         {
             if (ModelState.IsValid)
             {
                 db.News.Update(news);
-                db.SaveChanges();
+                await db.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
             return View(news);
         }
 
-        public ActionResult Delete(int? id)
+        public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
             {
                 return new StatusCodeResult((int)HttpStatusCode.BadRequest);
             }
-            News news = db.News.Find(id);
+            News news = await db.News.FindAsync(id);
             if (news == null)
             {
                 return NotFound();
@@ -118,11 +119,11 @@ namespace COC.Controllers
         
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            News news = db.News.Find(id);
+            News news = await db.News.FindAsync(id);
             db.News.Remove(news);
-            db.SaveChanges();
+            await db.SaveChangesAsync();
             return RedirectToAction("Index");
         }
 
