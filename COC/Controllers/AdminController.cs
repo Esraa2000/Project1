@@ -9,10 +9,14 @@ namespace COC.Controllers
 {
     public class AdminController : Controller
     {
-        private QUDBContext db = new QUDBContext();
+      private readonly QUDBContext db;
+private readonly identityDbContext _identityDb;
 
-        
-        private identityDbContext _identityDb = new identityDbContext();
+public AdminController(QUDBContext Db, identityDbContext identityDb)
+{
+    db = Db;
+    _identityDb = identityDb;
+}
 
         public async Task<IActionResult> GetUser()
         {
