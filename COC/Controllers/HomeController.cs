@@ -10,8 +10,15 @@ namespace COC.Controllers
     public class HomeController : Controller
 
     {
-        private QUDBContext db = new QUDBContext();
-        private identityDbContext _identityDb = new identityDbContext();
+       
+        private readonly QUDBContext db;
+        private readonly identityDbContext _identityDb;
+
+        public HomeController(QUDBContext Db, identityDbContext identityDb)
+        {
+            db = Db;
+            _identityDb = identityDb;
+        }
 
         public async Task<IActionResult> Index()
         {
