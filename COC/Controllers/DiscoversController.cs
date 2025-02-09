@@ -84,7 +84,7 @@ public DiscoversController(QUDBContext Db)
         {
             if (id == null)
             {
-                return new StatusCodeResult((int)HttpStatusCode.BadRequest);
+                return BadRequest();
             }
             Discover discover =await db.Discovers.FindAsync(id);
             if (discover == null)
@@ -111,7 +111,7 @@ public DiscoversController(QUDBContext Db)
         {
             if (id == null)
             {
-                return new StatusCodeResult((int)HttpStatusCode.BadRequest);
+                return BadRequest();
             }
             Discover discover = await db.Discovers.FindAsync(id);
             if (discover == null)
@@ -131,13 +131,6 @@ public DiscoversController(QUDBContext Db)
             return RedirectToAction("Index");
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+       
     }
 }
