@@ -9,7 +9,14 @@ namespace COC.Controllers
 {
     public class DiscoversController : Controller
     {
-        private QUDBContext db = new QUDBContext();
+      private readonly QUDBContext db;
+       
+
+public DiscoversController(QUDBContext Db)
+{
+    db = Db;
+    
+}
 
         
         public async Task<IActionResult> Index()
