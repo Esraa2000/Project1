@@ -9,9 +9,9 @@ namespace COC.Controllers
     public class NewstestController : Controller
     {
         private readonly QUDBContext db;
- public NewstestController(QUDBContext db)
+ public NewstestController(QUDBContext Db)
  {
-     db = db;
+     db = Db;
  }
         
         public async Task<IActionResult> Index()
