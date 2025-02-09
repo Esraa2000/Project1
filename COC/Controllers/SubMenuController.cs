@@ -9,8 +9,11 @@ namespace COC.Controllers
 {
     public class SubMenuController : Controller
     {
-        private QUDBContext db = new QUDBContext();
-
+        private readonly QUDBContext db;
+public SubMenuController(QUDBContext Db)
+{
+    db = Db;
+}
        
         public async Task<IActionResult> Index()
         {
