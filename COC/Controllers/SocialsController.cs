@@ -24,7 +24,7 @@ namespace COC.Controllers
         {
             if (id == null)
             {
-                return new StatusCodeResult((int)HttpStatusCode.BadRequest);
+               return BadRequest();
             }
             Social social = await db.Socials.FindAsync(id);
             if (social == null)
@@ -59,7 +59,7 @@ namespace COC.Controllers
         {
             if (id == null)
             {
-                return new StatusCodeResult((int)HttpStatusCode.BadRequest);
+                return BadRequest();
             }
             Social social = await db.Socials.FindAsync(id);
             if (social == null)
@@ -86,7 +86,7 @@ namespace COC.Controllers
         {
             if (id == null)
             {
-                return new StatusCodeResult((int)HttpStatusCode.BadRequest);
+                return BadRequest();
             }
             Social social =await db.Socials.FindAsync(id);
             if (social == null)
@@ -106,13 +106,6 @@ namespace COC.Controllers
             return RedirectToAction("Index");
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+        
     }
 }
