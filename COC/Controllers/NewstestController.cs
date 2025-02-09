@@ -8,8 +8,11 @@ namespace COC.Controllers
 {
     public class NewstestController : Controller
     {
-        private QUDBContext db = new QUDBContext();
-
+        private readonly QUDBContext db;
+ public NewstestController(QUDBContext db)
+ {
+     db = db;
+ }
         
         public async Task<IActionResult> Index()
         {
