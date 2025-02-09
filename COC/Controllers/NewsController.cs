@@ -11,9 +11,9 @@ namespace COC.Controllers
     public class NewsController : Controller
     {
         private readonly QUDBContext db;
-public NewsController(QUDBContext db)
+public NewsController(QUDBContext Db)
 {
-    db = db;
+    db = Db;
 }
 
         public async Task<IActionResult> Index()
