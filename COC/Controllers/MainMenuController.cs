@@ -7,7 +7,13 @@ namespace COC.Controllers
 {
     public class MainMenuController : Controller
     {
-        private QUDBContext db = new QUDBContext();
+        private readonly QUDBContext db;
+
+
+public MainMenuController(QUDBContext db)
+{
+    db = db;
+}
 
         public async Task<IActionResult> Index()
         {
