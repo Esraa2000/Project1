@@ -8,7 +8,11 @@ namespace COC.Controllers
 {
     public class PhotosVideosController : Controller
     {
-        private QUDBContext db = new QUDBContext();
+        private readonly QUDBContext db;
+ public PhotosVideosController(QUDBContext db)
+ {
+     db = db;
+ }
 
         
         public async Task<IActionResult> Index()
