@@ -9,9 +9,11 @@ namespace COC.Controllers
 {
     public class SocialsController : Controller
     {
-        private QUDBContext db = new QUDBContext();
-
-       
+        private readonly QUDBContext db;
+ public SocialsController(QUDBContext Db)
+ {
+     db = Db;
+ }
         public async Task<IActionResult> Index()
         {
             return View(await db.Socials.ToListAsync());
