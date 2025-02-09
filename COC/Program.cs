@@ -16,6 +16,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 
+builder.Services.AddDbContext<identityDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection")));
+
 builder.Services.AddDbContext<QUDBContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("QUDBContext")));
 
