@@ -10,9 +10,9 @@ namespace COC.Controllers
         private readonly QUDBContext db;
 
 
- public EventsController(QUDBContext db)
+ public EventsController(QUDBContext Db)
  {
-     db = db;
+     db = Db;
  }
 
 
