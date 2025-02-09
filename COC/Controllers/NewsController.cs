@@ -10,7 +10,11 @@ namespace COC.Controllers
     [Authorize(Roles = "Admin")]
     public class NewsController : Controller
     {
-        private QUDBContext db = new QUDBContext();
+        private readonly QUDBContext db;
+public NewsController(QUDBContext db)
+{
+    db = db;
+}
 
         public async Task<IActionResult> Index()
         {
