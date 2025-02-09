@@ -24,7 +24,7 @@ public SubMenuController(QUDBContext Db)
         {
             if (id == null)
             {
-                return new StatusCodeResult((int)HttpStatusCode.BadRequest);
+                return BadRequest();
             }
             SubMenu sub_Menu = await db.SubMenus.FindAsync(id);
             if (sub_Menu == null)
@@ -71,7 +71,7 @@ public SubMenuController(QUDBContext Db)
         {
             if (id == null)
             {
-                return new StatusCodeResult((int)HttpStatusCode.BadRequest);
+                return BadRequest();
             }
             SubMenu sub_Menu = await db.SubMenus.FindAsync(id);
             if (sub_Menu == null)
@@ -98,7 +98,7 @@ public SubMenuController(QUDBContext Db)
         {
             if (id == null)
             {
-                return new StatusCodeResult((int)HttpStatusCode.BadRequest);
+                return BadRequest();
             }
             SubMenu sub_Menu = await db.SubMenus.FindAsync(id);
             if (sub_Menu == null)
@@ -118,13 +118,6 @@ public SubMenuController(QUDBContext Db)
             return RedirectToAction("Index");
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+        
     }
 }
