@@ -10,9 +10,9 @@ namespace COC.Controllers
         private readonly QUDBContext db;
 
 
-public MainMenuController(QUDBContext db)
+public MainMenuController(QUDBContext Db)
 {
-    db = db;
+    db = Db;
 }
 
         public async Task<IActionResult> Index()
