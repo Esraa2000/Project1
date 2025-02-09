@@ -7,7 +7,14 @@ namespace COC.Controllers
 {
     public class EventsController : Controller
     {
-        private QUDBContext db = new QUDBContext();
+        private readonly QUDBContext db;
+
+
+ public EventsController(QUDBContext db)
+ {
+     db = db;
+ }
+
 
        
         public async Task<IActionResult> Index()
