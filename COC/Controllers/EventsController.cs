@@ -27,7 +27,7 @@ namespace COC.Controllers
         {
             if (id == null)
             {
-                return new StatusCodeResult((int)HttpStatusCode.BadRequest);
+                return BadRequest();
             }
             Event @event = await db.Events.FindAsync(id);
             if (@event == null)
@@ -62,7 +62,7 @@ namespace COC.Controllers
         {
             if (id == null)
             {
-                return new StatusCodeResult((int)HttpStatusCode.BadRequest);
+                return BadRequest();
             }
                 Event @event = await db.Events.FindAsync(id);
             if (@event == null)
@@ -91,7 +91,7 @@ namespace COC.Controllers
         {
             if (id == null)
             {
-                return new StatusCodeResult((int)HttpStatusCode.BadRequest);
+                return BadRequest();
             }
             Event @event = await db.Events.FindAsync(id);
             if (@event == null)
@@ -111,13 +111,6 @@ namespace COC.Controllers
             return RedirectToAction("Index");
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+        
     }
 }
