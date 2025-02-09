@@ -9,9 +9,9 @@ namespace COC.Controllers
     public class PhotosVideosController : Controller
     {
         private readonly QUDBContext db;
- public PhotosVideosController(QUDBContext db)
+ public PhotosVideosController(QUDBContext Db)
  {
-     db = db;
+     db = Db;
  }
 
         
