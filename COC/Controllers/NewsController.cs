@@ -25,7 +25,7 @@ public NewsController(QUDBContext Db)
         {
             if (id == null)
             {
-                return new StatusCodeResult((int)HttpStatusCode.BadRequest);
+                return BadRequest();
             }
             News news = await db.News.FindAsync(id);
             if (news == null)
@@ -83,7 +83,7 @@ public NewsController(QUDBContext Db)
         {
             if (id == null)
             {
-                return new StatusCodeResult((int)HttpStatusCode.BadRequest);
+                return BadRequest();
             }
             News news = await db.News.FindAsync(id);
             if (news == null)
@@ -110,7 +110,7 @@ public NewsController(QUDBContext Db)
         {
             if (id == null)
             {
-                return new StatusCodeResult((int)HttpStatusCode.BadRequest);
+                return BadRequest();
             }
             News news = await db.News.FindAsync(id);
             if (news == null)
@@ -131,13 +131,6 @@ public NewsController(QUDBContext Db)
             return RedirectToAction("Index");
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+        
     }
 }
