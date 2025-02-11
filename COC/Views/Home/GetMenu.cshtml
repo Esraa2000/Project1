@@ -1,9 +1,9 @@
-﻿@model COC.Models.AllData
-@using Microsoft.AspNetCore.Authentication
-@using Microsoft.AspNetCore.Mvc.Rendering
+@model COC.Models.AllData
+
 
 @{
     ViewBag.Title = "GetMenu";
+    
 }
 
 <!-- MOBILE MENU -->
@@ -13,7 +13,7 @@
             <div class="ed-mm-left">
                 <div class="wed-logo">
                     <a href="index-2.html">
-                        <img src="~/images/logo.png" alt="" />
+                        <img src="~/Content/images/logo.png" alt="" />
                     </a>
                 </div>
             </div>
@@ -25,18 +25,25 @@
 
                         @foreach (var item in Model.MainMenuObj)
                         {
+
                             <h4>@item.Name</h4>
                             <ul>
                                 @foreach (var item1 in item.SubMenus)
                                 {
+
                                     if (item1.Content != null)
                                     {
+
                                         <li><a href="/Home/SubMenuDetails?SubMid=@item1.Id">@item1.Name</a></li>
                                     }
+
                                     else
+
                                     {
                                         <li><a href="@item1.Url">@item1.Name</a></li>
+
                                     }
+
                                 }
                             </ul>
                         }
@@ -49,10 +56,12 @@
 
 <!--HEADER SECTION-->
 <section>
+    <!-- TOP BAR -->
     <div class="ed-top">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
+
                     <div class="ed-com-t1-left">
                         <ul>
                             <li>
@@ -64,10 +73,12 @@
                         </ul>
                     </div>
                     <div class="ed-com-t1-right">
+
                         @Html.Partial("_LoginPartial")
                     </div>
                     <div class="ed-com-t1-social">
                         <ul>
+
                             <li>
                                 <a href="@Model.SocialObj.Email"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                             </li>
@@ -88,7 +99,7 @@
                 <div class="col-md-12">
                     <div class="wed-logo">
                         <a href="/">
-                            <img src="~/images/logo.png" alt="" />
+                            <img src="~/Content/images/logo.png" alt="" />
                         </a>
                     </div>
 
@@ -97,6 +108,7 @@
 
                         @foreach (var item in Model.MainMenuObj)
                         {
+
                             <div class="dropdown1">
                                 <button class="dropbtn1">
                                     @item.Name
@@ -120,96 +132,177 @@
                         }
                     </div>
                 </div>
+                <div class="all-drop-down-menu">
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- Search Form -->
-    <form method="post" asp-action="SearchData" asp-controller="Home">
+    @using ((Html.BeginForm("SearchData", "Home", FormMethod.Post)))
+    {
         @Html.AntiForgeryToken()
         <div class="search-top">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="search-form">
-                            <div class="sf-type">
-                                <div class="sf-input">
-                                    @Html.EditorFor(model => model.search, new { htmlAttributes = new { @class = "form-control", @placeholder = "Search" } })
-                                    @Html.ValidationMessageFor(model => model.search, "", new { @class = "text-danger" })
+                            <form>
+                                <div class="sf-type">
+                                    <div class="sf-input">
+
+                                        @Html.EditorFor(model => model.search, new { htmlAttributes = new { @class = "form-control", @placeholder = "Search" } })
+                                        @Html.ValidationMessageFor(model => model.search, "", new { @class = "text-danger" })
+
+                                    </div>
+                                   
                                 </div>
-                            </div>
-                            <div class="sf-submit">
-                                <input type="submit" value="Search Course" class="btn btn-primary" />
-                            </div>
+                                <div class="sf-submit">
+                                    <input type="submit" value="Search News">
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </form>
+
+    }
 </section>
 
-<!-- Register Modal -->
+<!-- REGISTER SECTION -->
 <div id="modal2" class="modal fade" role="dialog">
     <div class="log-in-pop">
         <div class="log-in-pop-left">
             <h1>Hello...</h1>
-            <p>Don't have an account? Create your account. It's take less than a minute</p>
+            <p>Don't have an account? Create your account. It's take less then a minutes</p>
             <h4>Login with social media</h4>
+            <ul>
+                <li>
 
-            @* External Login Providers *@
-            @if (ViewBag.LoginProviders != null)
-            {
-                <div id="socialLoginList">
-                    <ul>
-                        @foreach (var p in ViewBag.LoginProviders)
-                        {
-                            <li>
-                                <button type="submit" class="fa fa-@p" id="@p" name="provider" value="@p" title="Log in using your @p account">@p</button>
-                            </li>
-                        }
-                    </ul>
-                </div>
-            }
+                    <a href="#"><i class="fa fa-facebook"></i> Facebook</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-google"></i> Google+</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+                </li>
+            </ul>
+
+
         </div>
         <div class="log-in-pop-right">
             <a href="#" class="pop-close" data-dismiss="modal">
-                <img src="~/images/cancel.png" alt="" />
+                <img src="~/Content/images/cancel.png" alt="" />
             </a>
             <h4>Create an Account</h4>
-            <p>Don't have an account? Create your account. It's take less than a minute</p>
+            <p>Don't have an account? Create your account. It's take less then a minutes</p>
 
             @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
             {
                 @Html.AntiForgeryToken()
 
+                @Html.ValidationSummary("", new { @class = "text-danger" })
                 <div class="form-group">
                     @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
                         @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
                     </div>
                 </div>
-
                 <div class="form-group">
                     @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
                         @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
                     </div>
                 </div>
-
                 <div class="form-group">
                     @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
                         @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
                     </div>
                 </div>
-
                 <div class="form-group">
                     <div class="col-md-offset-2 col-md-10">
                         <input type="submit" class="waves-effect waves-light log-in-btn" value="Register" />
                     </div>
                 </div>
+
+                <div>
+                    <div class="input-field s12"> <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modal1">Are you a already member ? Login</a> </div>
+                </div>
             }
         </div>
     </div>
 </div>
+
+@using (Html.BeginForm("Login", "Account", new { returnUrl = ViewBag.ReturnUrl }, FormMethod.Post, false, new { @class = "form-horizontal", role = "form" }))
+{
+    <div id="modal1" class="modal fade" role="dialog">
+        <div class="log-in-pop">
+            <div class="log-in-pop-left">
+                <h1>Hello...</h1>
+                <p>Don't have an account? Create your account. It's take less then a minutes</p>
+                <h4>Login with social media</h4>
+                <ul>
+                    <li>
+
+                        <a href="#"><i class="fa fa-facebook"></i> Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-google"></i> Google+</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="log-in-pop-right">
+                <a href="#" class="pop-close" data-dismiss="modal">
+                    <img src="~/Content/images/cancel.png" alt="" />
+                </a>
+                <h4>Login</h4>
+                <p>Don't have an account? Create your account. It's take less then a minutes</p>
+                <form class="s12">
+                    @Html.AntiForgeryToken()
+                    <h4>Use a local account to log in.</h4>
+                    <hr />
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <div class="checkbox">
+                                @Html.CheckBoxFor(m => m.RememberMe)
+                                @Html.LabelFor(m => m.RememberMe)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Log in" class="waves-effect waves-light log-in-btn" />
+                        </div>
+                    </div>
+                    <p>
+                        @Html.ActionLink("Register as a new user", "Register")
+                    </p>
+                  
+                    <div>
+                        <div class="input-field s12"> <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modal3">Forgot password</a> | <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modal2">Create a new account</a> </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+}
