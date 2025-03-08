@@ -1,17 +1,18 @@
 using COC.ModelDB.QUDB;
 using COC.Models;
 using Microsoft.AspNetCore.Mvc;
-using COC.Repositories;
+using System.Net;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace COC.Controllers
 {
     public class DiscoversController : Controller
     {
-      private readonly IDiscoverRepository db;
+      private readonly QUDBContext db;
        
 
-public DiscoversController(IDiscoverRepository Db)
+public DiscoversController(QUDBContext Db)
 {
     db = Db;
     
@@ -20,7 +21,7 @@ public DiscoversController(IDiscoverRepository Db)
         
         public async Task<IActionResult> Index()
         {
-            var discovers = await db.GetAll();
+            var discovers = await db.Discovers.ToListAsync();
             return View(discovers);
         }
 
@@ -31,7 +32,7 @@ public DiscoversController(IDiscoverRepository Db)
             {
                 return BadRequest();
             }
-            Discover discover =await db.GetById(id.Value);
+            Discover discover =await db.Discovers.FindAsync(id);
             if (discover == null)
             {
                 return NotFound();
@@ -71,8 +72,8 @@ public DiscoversController(IDiscoverRepository Db)
                 discoverModele.ImageUrl = profileImage;
             }
             
-                db.Add(discoverModele);
-                
+                db.Discovers.Add(discoverModele);
+                await db.SaveChangesAsync();
                 return RedirectToAction("Index");
             
 
@@ -85,7 +86,7 @@ public DiscoversController(IDiscoverRepository Db)
             {
                 return BadRequest();
             }
-            Discover discover =await db.GetById(id.Value);
+            Discover discover =await db.Discovers.FindAsync(id);
             if (discover == null)
             {
                 return NotFound();
@@ -99,8 +100,8 @@ public DiscoversController(IDiscoverRepository Db)
         {
             if (ModelState.IsValid)
             {
-                db.Update(discover);
-                
+                db.Discovers.Update(discover);
+                await db.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
             return View(discover);
@@ -112,7 +113,7 @@ public DiscoversController(IDiscoverRepository Db)
             {
                 return BadRequest();
             }
-            Discover discover = await db.GetById(id.Value);
+            Discover discover = await db.Discovers.FindAsync(id);
             if (discover == null)
             {
                 return NotFound();
@@ -124,8 +125,9 @@ public DiscoversController(IDiscoverRepository Db)
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-           
-            await db.Delete(id);
+            Discover discover = await db.Discovers.FindAsync(id);
+            db.Discovers.Remove(discover);
+            await db.SaveChangesAsync();
             return RedirectToAction("Index");
         }
 
