@@ -22,7 +22,7 @@ builder.Services.AddDbContext<identityDbContext>(options =>
 builder.Services.AddDbContext<QUDBContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("QUDBContext")));
 
-
+builder.Services.AddScoped<IDiscoverRepository, DiscoverRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
