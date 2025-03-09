@@ -29,7 +29,7 @@ public partial class QUDBContext : DbContext
 
     public virtual DbSet<SubMenu> SubMenus { get; set; }
 
-    public virtual DbSet<View1> View1s { get; set; }
+   
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -110,15 +110,7 @@ public partial class QUDBContext : DbContext
                 .HasConstraintName("FK_Sub Menu_Main Menu");
         });
 
-        modelBuilder.Entity<View1>(entity =>
-        {
-            entity
-                .HasNoKey()
-                .ToView("View_1");
-
-            entity.Property(e => e.Expr1).HasMaxLength(50);
-            entity.Property(e => e.Name).HasMaxLength(50);
-        });
+       
 
         OnModelCreatingPartial(modelBuilder);
     }
